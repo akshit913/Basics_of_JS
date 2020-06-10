@@ -3,3 +3,21 @@ If a source exists in script tag it's inside script is not loaded.
 Script is a 2 sided tag.
 async - script reading (downloading) and rendering takes place simultaenously. good for slow internet connections.
 defer - execute the script after the rendering has taken place.
+In JS a single line is read and executed first. "interprated scripting language"
+let is common for any variable unlike java where you have to specify the type and then followed by value of that type.
+
+Strongly typed language vs weakly typed language :
+Restriction on data type is on the variable not on the value which defines the strongness or weakness of a language.
+Strongly - java, c++.
+weakly - 
+Object x = 10;
+x = "akshit";
+the above code works in java so how is it strongly typed language?
+Similarly if we take a void pointer in  c++ we can achieve the abve thing too which might make it weak too.
+We have the choice to use the language weakly. Java has the option to be written strongly and weekly we can choose in between mmaking it strong.
+
+Statically typed language vs dynamically typed language :
+Some languages are compiled and some are not. 
+Statically have a compiling step to check for errors relateed to data type checking.
+JS is not static.
+Javascript falls into a bucket of weak dynamically typed language. 
