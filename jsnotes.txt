@@ -1,0 +1,5 @@
+alert blocks the further rendering of the page. 
+If a source exists in script tag it's inside script is not loaded. 
+Script is a 2 sided tag.
+async - script reading (downloading) and rendering takes place simultaenously. good for slow internet connections.
+defer - execute the script after the rendering has taken place.
