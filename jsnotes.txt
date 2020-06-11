@@ -21,3 +21,21 @@ Some languages are compiled and some are not.
 Statically have a compiling step to check for errors relateed to data type checking.
 JS is not static.
 Javascript falls into a bucket of weak dynamically typed language. 
+
+Day 2: 
+Javascript has a data type function which enables us to treat functions as a variable.
+String and character are stored as string in js. single or double always strings.
+Integer and float are stored as data type number.
+Properties of functions: 
+interprator reads all the lines first and then executes. 
+function definations are put at the top while running which is known as hoisting
+lines to be executed are put in a queue. and after reading the file that queue is executed.
+without hoisting performance would increase. But it would make it difficult to write code.
+if a function or variable is defined using let then it cannot be used before the function defination.
+let, const is the new introduction so it should be promoted for the use. Var is the older way.
+Polymorphism : 
+Function needs to be defined once and the logic can be changed according to the use.
+undefined acts as a false case for an if condition which helps us in Polymorphism.
+Passing 2 arguments in a function requiring one parameter is also fine. We can still access the second parameter in the second function.
+arguments is not a keyword it gets created in every function. it is an array.
+thus functions can be created without any actual arguments. and can be handeled using the arguments array.
