@@ -39,3 +39,4 @@ undefined acts as a false case for an if condition which helps us in Polymorphis
 Passing 2 arguments in a function requiring one parameter is also fine. We can still access the second parameter in the second function.
 arguments is not a keyword it gets created in every function. it is an array.
 thus functions can be created without any actual arguments. and can be handeled using the arguments array.
+either we can call functions in js or we can pass just the name and call that function in the js.
