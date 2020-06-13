@@ -40,3 +40,36 @@ Passing 2 arguments in a function requiring one parameter is also fine. We can s
 arguments is not a keyword it gets created in every function. it is an array.
 thus functions can be created without any actual arguments. and can be handeled using the arguments array.
 either we can call functions in js or we can pass just the name and call that function in the js.
+
+variables :
+variables can be defined without var or let. They are global variables.
+var - variables inside functions scope. if a variable is declared inside a block (if statement)
+it will run outside that if block too but not outside the function.
+let - block scope variables.
+functions defined using keyword function are hoisted and other declarations are not.
+arrays :
+array.push to add
+array.pop to remove last element returns and removes
+arr.indexOf(element) for index - linear search.
+arr.shift - remove first
+arr.unshift - add first
+
+OOPS in javascript :
+var with Properties.
+for each(val,idx) for iteration of list.
+use this to refer to the current object and use it for the functions inside the object.
+2 ways to create json :
+creating a constructor and using this keyword.
+or using key keyword.
+we can map variable to a class.
+classes are not hoisted.
+substring and slice appear to do the same thing but there is a slite difference.
+slice is always done to the start side to end. right to left.
+substr - start index and length. supports negative numbers as well.
+escape character using \
+arrays can store different types of data in them.
+for of floops for iteration. value
+for in loops for iteration. index
+slice is undistructible in nature. after slicing the array is not changed.
+splice returns the removed part. second optional argument is the number of items.
+splice can also change the data inside.
