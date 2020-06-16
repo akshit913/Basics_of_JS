@@ -98,3 +98,5 @@ this points to the place where the function is called. points to the nearest sco
 if a function is inside an object this points to the object itself.
 this in js is bound in runtime.
 when the function is run js compiler checks if called with js object this points to the object else to window.
+this works differently on browser and node.
+right now we are talking about browser.
