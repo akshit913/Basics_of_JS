@@ -100,3 +100,20 @@ this in js is bound in runtime.
 when the function is run js compiler checks if called with js object this points to the object else to window.
 this works differently on browser and node.
 right now we are talking about browser.
+
+No string pool in js like java. JS interprators depend on the browser.
+
+Dollar sign templates/string literals :- 
+int ${} we can write any js expression which will get evaluated.
+Inheritance in js :
+Object.create for new object
+sameness and equality :
+== value
+=== type and value
+\n and \t are equal to 0. any empty space when converted into a number is 0
+javascript is a pass by value language but some places have that value as reference.
+if any 2 var a and b of type object. if they come equal that means they have the same refernce.
+otherwise it would output false.
+Prototyoe based Inheritance:
+__proto__ for debugging inside the console not for production.
+at the time of read the logic is followed and not at the write time.
