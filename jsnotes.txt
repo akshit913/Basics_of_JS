@@ -73,3 +73,28 @@ for in loops for iteration. index
 slice is undistructible in nature. after slicing the array is not changed.
 splice returns the removed part. second optional argument is the number of items.
 splice can also change the data inside.
+
+
+Closure - how to use things that seem to be out of the scope.
+window is the most global scope
+whenever a function is born whatever the scopes were available at the birth place of the function
+those scopes are available throughout the life of the function.
+The above lines define what closer scope are.
+variables can be shadowed inside the inner functions of Closure.
+in the case of shadowing the outer defination will be undefined since it will be inaccessible.
+arguments keyword is not captured in closure scope.
+
+NEVER THINK OF RELATING ONE LANGUAGE TO OTHER. ALL THE LANGUAGES ARE MADE WITH DIFFERENT CONCERNS. 
+EXPLORE!!!!!!
+
+Closures dont have any performance issues. But the variables need to be free once used otherwise the ram usage will increase.
+
+
+This:
+For languages other than JS :Only used in non static methods of a class. Because static methods dont belong to any object of the class.
+In js this works without any class.
+two modes strict and non strict
+this points to the place where the function is called. points to the nearest scope available.
+if a function is inside an object this points to the object itself.
+this in js is bound in runtime.
+when the function is run js compiler checks if called with js object this points to the object else to window.
