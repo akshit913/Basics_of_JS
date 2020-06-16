@@ -117,3 +117,8 @@ otherwise it would output false.
 Prototyoe based Inheritance:
 __proto__ for debugging inside the console not for production.
 at the time of read the logic is followed and not at the write time.
+obj2.a->try to  find a in obj2
+if not found
+try to find it in obj2.__proto__
+try to find it in obj2.__proto__.__proto__
+this chain goes on
