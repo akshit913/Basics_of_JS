@@ -122,3 +122,22 @@ if not found
 try to find it in obj2.__proto__
 try to find it in obj2.__proto__.__proto__
 this chain goes on
+
+
+OOPS Day :
+all the capital data types are of type functions.
+Javascript Polymorphism is on the basis of some if else statements.
+In a browser window is the global scope
+obj is 2 level away from null
+string number boolean are 3 levels away from null.
+array is also 3 level away from null, same for function.
+Everything is directly inherited from the same thing that the object is inherited from.
+In javascript Everything is essentially an Object.
+String.__proto__ inherites from Object.Prototype
+How does .Prototype exists if Number or String are a function?
+Answer : functions are also objects in java that's why .Prototype exists
+If there are 2 objects with same proto it is not neccessary there type of will be same.
+object.create establishes an object always!!
+Number.__proto__ is the hidden pointer which points to the blueprint from which number is made.
+Number.Prototype points to the model which was responsible for creating a number.
+Object oriented nature in js is driven using Prototype.
