@@ -154,3 +154,31 @@ no access modifiers available in js because these are not actual classes like ja
 must call super constructor before calling this. very important
 no Inheritance between the classes actually they are functions derived from preivous one.
 class names in capital function name in small. (Convention to be followed)
+
+
+Promises :- 
+every promise has an executor function 
+resolve and reject to deal with the data. use then for them
+IIFE functions in js :-
+Immediately invoked function expression
+let creates an internal closure bound to every iteration. but only available is eicma scrypt 6
+we can also use the callback function of setTimeout.
+//refer to promise.js line 20
+
+/variable types
+assignment to a constant variable is not possible.
+new elements can be added into a constant object.
+const variable cannot be used as lhs. makes the variable partilly immutable.
+var has a whole function life.
+let has a scope life.
+const also has a scope life.
+
+
+when a function gets the scope of its outer function it is called a closure function
+clearInterval to cancel the set interval
+ 
+inner html just the contents, outer html along with the contents
+tags while setting inner texts are treated as string
+use inner html for changing html
+we can add spellcheck
+never use innerhtml inside a for loop
