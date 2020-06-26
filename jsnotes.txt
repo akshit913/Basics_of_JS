@@ -184,3 +184,17 @@ we can add spellcheck
 never use innerhtml inside a for loop
 if use of innerhtml inside the loop is neccessary then use createElemnet function.
 and the append it to the parent.
+
+
+jQuery : 
+Mainly used for DOM manipulation.
+helps reduce the syntax.
+helps in AJAX. - asynchronously use requests.
+$ refers to jQuery object
+storing dom elements in variables is better than document.getElementById because it has to be parsed into dom object.
+jQuery works on Polymorphism if no argument returs the data if there is an argument than sets it.
+jQuery has the option to pipe different Properties.
+
+we want the page to load first before running the script thus either use window.onload or put your function inside the dollar function
+this happens because the script is inside the head and the body has not loaded yet.
+data from input objects is accessed using val() in jQuery
