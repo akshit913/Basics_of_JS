@@ -182,3 +182,5 @@ tags while setting inner texts are treated as string
 use inner html for changing html
 we can add spellcheck
 never use innerhtml inside a for loop
+if use of innerhtml inside the loop is neccessary then use createElemnet function.
+and the append it to the parent.
