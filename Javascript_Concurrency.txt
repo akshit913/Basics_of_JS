@@ -1,0 +1,19 @@
+Arrow functions have this attached to the this which is permanant and refers to the place it was written.
+processor is busy calculating Date.now thus the page hangs. this happens because to use js interprator a single thread is allocated to it. 
+number of threads in the computer is very less say 4. but the number of threads that can be run simaltaenously is greater than that because most of the time the 
+program is sitting idle. Think of it as a restaurant with a single chef serving 10 people at a time. This is what we call time division multiplexing.
+CPU is actually performing sequential running it is happening so fast which makes it appear that it is happening parrallely.
+program -  set of instructions
+process - when we run a program since it has a cycle now.
+Minimum requirements for a program to run - Processing power and space to store.
+Thread is a lightweight process - this term is wrong. Thread is a part of a process. thread is a bunch of instructions. 
+Increasing the number of threads does not neccessarily mean that the performance will increase too.
+It depends if the work can be divied or not. 
+Browser is multithreaded. and has multiple tabs. not neccessarily equal to the number of tabs. Everytab can run js interprator.
+js doesnot give us the option to open new threads like java because for that we will need another tab and interprator.
+setTimeout => How does the computer calculate time? => Browser has mechanism to calculate time other than interprator. 
+interprator becomes free after asking it to calculate the time. It's like the interprator sets an alarm to execute the task after a certain amount of time.
+Parallel things can be done which doesnot require the interprator simaltaenously. Like download/ uploading file while the rest of the js is being executed.
+//watch js event loop philip roberts in jsconf.
+Final printing is done after the completion of the function. it is batching job. 
+You dont know js - Good resource for studying more in depth about js.

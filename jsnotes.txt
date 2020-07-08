@@ -198,3 +198,13 @@ jQuery has the option to pipe different Properties.
 we want the page to load first before running the script thus either use window.onload or put your function inside the dollar function
 this happens because the script is inside the head and the body has not loaded yet.
 data from input objects is accessed using val() in jQuery
+
+
+OOPS recap :
+writing data happens in current object and reading happens in the upper inherited objects.
+concurrency is possible in js parllelisation is not
+since Everything is on a single thread when we set interval it performs other tasks while waiting for that time.
+it doesnot happen parllally
+callback run function after execution of some async opepration.
+return promise from inside for sequential execution. 
+create async for using await.

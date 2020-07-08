@@ -1,0 +1,5 @@
+Each Promise is created using the constructor which takes in a function as an argument with 2 variables => resolve and reject.
+Async functions have callback functions which are called after the given task is completed.
+When we resolve a promise it's state is made from pending to resolved and the then function can be called later.
+Async functions need callbacks in the arguments. If we still dont know the manipulations to be performed after the function execution is completed I cannot write the callback function.
+Promises saves us from this by providing us the option to give it a callback function after completion using then.
